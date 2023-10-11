@@ -270,7 +270,7 @@ local theme = lush(function()
 		-- TSConstant           { };    -- For constants
 		-- TSConstBuiltin       { };    -- For constant that are built in the language: `nil` in Lua.
 		-- TSConstMacro         { };    -- For constants that are defined by macros: `NULL` in C.
-		TSError({ old_brick }), -- For syntax/parser errors.
+		TSError({ bg = old_brick }), -- For syntax/parser errors.
 		-- TSException          { };    -- For exception related keywords.
 		-- TSField              { };    -- For fields.
 		-- TSFloat              { };    -- For floats.
